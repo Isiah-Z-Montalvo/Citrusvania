@@ -24,3 +24,9 @@ form.addEventListener('submit', (event) => {
       alert('Failed to load safety scores');
     });
 });
+
+function getData() {
+    fetch("/data/data.json")
+    .then((response) => response.json())
+    .then((json) => console.log(json))
+}
