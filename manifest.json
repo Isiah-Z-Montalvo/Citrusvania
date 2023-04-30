@@ -1,10 +1,10 @@
 {
     "manifest_version": 3,
     "name": "Hotel Citrus",
-    "description": "Base Level Extension",
+    "description": "Assess a location in California and receive a rating based on riskiness.",
     "version": "1.0",
     "action": {
       "default_popup": "/popup/popup.html",
-      "default_icon": "/images/hotel.jpg"
+      "default_icon": "/images/icon16.png"
     }
 }
