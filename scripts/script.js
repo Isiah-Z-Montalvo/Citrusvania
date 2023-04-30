@@ -31,4 +31,13 @@ form.addEventListener('submit', (event) => {
       console.error(error);
       alert('Failed to load safety scores');
     });
+
+  fetch('http://josepharmstrong314.pythonanywhere.com/yelp_scraper?arg1=Riverside&arg2=CA&arg3=1510&arg4=University%20Ave')
+  .then(function (response) {
+      return response.json();
+  }).then(function (text) {
+      console.log('GET response:');
+      console.log(text.result); 
+  });
+
 });
