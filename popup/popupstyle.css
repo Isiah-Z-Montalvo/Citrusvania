@@ -1,0 +1,83 @@
+body {
+    font-family: "Helvetica Neue";
+    background-color: #d7c0d0;
+    background-image: url(/images/pink-background.png);
+    color: black;
+    width: 600px;
+    height: 500px;
+  }
+  
+.titlestyle {
+    margin: auto;
+    padding-bottom: 10px;
+    font-size: 60px;
+    text-align: center;
+    color: rgb(18, 27, 51);
+}
+
+.container1 {
+    position: relative;
+    margin: auto;
+    width: 50%;
+}
+
+.container2 {
+    position: relative;
+    top: 20px;
+    right: 15px;
+    margin: auto;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 270px;
+    height: 250px;
+    background-color: black;
+}
+
+.container1-text th,
+.container1-text td {
+  padding-right: 10px;
+}
+
+.inputbox {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 250px;
+    margin-bottom: 10px;
+  }
+
+.btn {
+    position: relative;
+    left: 5%;
+    top: 5px;
+    background-color: rgb(18, 27, 51);
+    color: #e4d9ff;
+    font-size: 24px;
+    padding: 12px 28px;
+    border-radius: 12px;
+    border: 1px solid gray;
+    display: block;
+}
+
+.btn:hover {
+    background-color: rgb(8, 12, 24);
+    color: #cbb9f8;
+}
+
+.default_popup {
+    width: 600px;
+    height: 500px;
+}
+
+.output-text {
+    position: relative;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    right: 20px;
+    padding: 5px;
+    bottom: 20px;
+
+}
