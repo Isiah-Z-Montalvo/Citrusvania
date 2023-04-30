@@ -41,13 +41,3 @@ function getData() {
     .then((response) => response.json())
     .then((json) => console.log(json))
 }
-
-/*
-const getMatch = await fetch("http://google.com/complete/search?client=chrome&q=" + Keyword, {
-      method: 'GET',
-      mode: 'no-cors',
-      headers: {
-      'Content-Type': 'text/plain',
-      },
-    })
-*/
