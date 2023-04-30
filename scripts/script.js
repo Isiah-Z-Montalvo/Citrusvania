@@ -29,7 +29,8 @@ form.addEventListener('submit', (event) => {
   })
   .then(function (response) {
       console.log(response);
-      return response.json();
+      console.log(response.json());
+      // return response.json();
   }).then(function (text) {
       alert("here");
       console.log('GET response:');
