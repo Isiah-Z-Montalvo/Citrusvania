@@ -12,6 +12,6 @@
 
   "action": {
     "default_popup": "/popup/popup.html",
-    "default_icon": "hotel.jpg"
+    "default_icon": "images/hotel.jpg"
   }
 }
