@@ -32,7 +32,7 @@ form.addEventListener('submit', (event) => {
       alert('Failed to load safety scores');
     });
 
-  fetch('http://josepharmstrong314.pythonanywhere.com/yelp_scraper?arg1=Riverside&arg2=CA&arg3=1510&arg4=University%20Ave', {
+  fetch('/yelp_scraper?arg1=Riverside&arg2=CA&arg3=1510&arg4=University%20Ave', {
     mode: 'no-cors'
   })
   .then(function (response) {
