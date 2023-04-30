@@ -28,8 +28,10 @@ form.addEventListener('submit', (event) => {
     mode: 'no-cors'
   })
   .then(function (response) {
+      console.log(response);
       return response.json();
   }).then(function (text) {
+      alert("here");
       console.log('GET response:');
       console.log(text.result); 
   });
