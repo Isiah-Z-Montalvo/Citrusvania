@@ -24,7 +24,9 @@ form.addEventListener('submit', (event) => {
       alert('Failed to load safety scores');
     });
 
-  fetch('http://josepharmstrong314.pythonanywhere.com/yelp_scraper?arg1=Riverside&arg2=CA&arg3=1510&arg4=University%20Ave')
+  fetch('http://josepharmstrong314.pythonanywhere.com/yelp_scraper?arg1=Riverside&arg2=CA&arg3=1510&arg4=University%20Ave', {
+    mode: 'no-cors'
+  })
   .then(function (response) {
       return response.json();
   }).then(function (text) {
@@ -39,3 +41,13 @@ function getData() {
     .then((response) => response.json())
     .then((json) => console.log(json))
 }
+
+/*
+const getMatch = await fetch("http://google.com/complete/search?client=chrome&q=" + Keyword, {
+      method: 'GET',
+      mode: 'no-cors',
+      headers: {
+      'Content-Type': 'text/plain',
+      },
+    })
+*/
