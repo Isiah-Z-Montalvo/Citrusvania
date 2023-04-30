@@ -1,10 +1,17 @@
 {
-    "manifest_version": 3,
-    "name": "Hotel Citrus",
-    "description": "Assess a location in California and receive a rating based on riskiness.",
-    "version": "1.0",
-    "action": {
-      "default_popup": "/popup/popup.html",
-      "default_icon": "/images/icon16.png"
-    }
+  "manifest_version": 3,
+  "name": "Hotel Citrus",
+  "description": "Assess the hotel's location and provide a safety rating based on which city in California.",
+  "version": "1.0",
+  "icons": {
+    "16": "images/icon16.png",
+    "32": "images/icon32.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  },
+
+  "action": {
+    "default_popup": "/popup/popup.html",
+    "default_icon": "images/hotel.jpg"
+  }
 }
